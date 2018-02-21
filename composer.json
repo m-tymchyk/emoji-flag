@@ -1,0 +1,24 @@
+{
+    "name": "m-tymchyk/emoji-flag",
+    "type": "library",
+    "description": "Converts string of country codes into string of emoji flags.",
+    "keywords": ["country", "emoji", "flag", "converter"],
+    "homepage": "https://github.com/peterkahl/country-code-to-emoji-flag",
+    "license": "Apache License Version 2.0",
+    "authors": [
+        {
+            "name": "Maksym Tymchyk",
+            "email": "reilag69@gmail.com",
+            "homepage": "https://www.colossalmind.com/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EmojiFlag\\": "src/"
+        }
+    }
+}
