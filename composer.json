@@ -1,15 +1,15 @@
 {
     "name": "m-tymchyk/emoji-flag",
     "type": "library",
-    "description": "Converts string of country codes into string of emoji flags.",
+    "description": "Library that help convert country ISO codes to emoji flags",
     "keywords": ["country", "emoji", "flag", "converter"],
-    "homepage": "https://github.com/peterkahl/country-code-to-emoji-flag",
-    "license": "Apache License Version 2.0",
+    "homepage": "https://github.com/m-tymchyk/emoji-flag",
+    "license": "MIT",
     "authors": [
         {
             "name": "Maksym Tymchyk",
             "email": "reilag69@gmail.com",
-            "homepage": "https://www.colossalmind.com/",
+            "homepage": "https://coinwizard.me/",
             "role": "Developer"
         }
     ],
