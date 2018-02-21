@@ -1,5 +1,19 @@
-# Emoji Flag 🇦🇺🇦🇷🇩🇰🇵🇱🇺🇦🇬🇧🇺🇸🇱🇧🇪🇫
+# Emoji Flag 🇦🇺🇦🇷🇩🇰🇵🇱🇺🇦🇬🇧🇺🇸🇱🇧
 Converts string of country codes to string of emoji flags. As an argument use a single 2-letter country code or a string of multiple codes.
+
+```bash
+composer require m-tymchyk/emoji-flag
+```
+
+```php
+use EmojiFlag\EmojiFlag;
+
+# Single flag
+echo EmojiFlag::emojiFlag('uk'); # 🇬🇧
+
+# String of multiple flags
+echo EmojiFlag::emojiFlag('ukcwsxap'); # 🇬🇧🇳🇱🇳🇱🏴
+```
 
 ## Why Emoji
 Emoji symbol is a textual replacement for a graphic image file while having the benefits of a graphic image. The image file is already present at your intended destination (a person's device), so why would you transmit the image to them again and again? -- Use emoji!
@@ -12,14 +26,3 @@ Now you can include emoji in plain text files, even in plain text emails, making
 
 ## ♻ Green Technology ♻
 An image file equivalent to an emoji symbol may be tens, hundreds of kilobytes in size, while an emoji symbol is only several bytes. That's a bandwidth saving of around 10,000 times. If you use emoji instead of image files, you reduce your carbon footprint.
-
-```php
-use peterkahl\flagMaster\flagMaster;
-
-# Single flag
-echo EmojiFlag::emojiFlag('uk'); # 🇬🇧
-
-# String of multiple flags
-echo EmojiFlag::emojiFlag('ukcwsxap'); # 🇬🇧🇳🇱🇳🇱🏴
-
-```
