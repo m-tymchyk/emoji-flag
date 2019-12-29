@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "EmojiFlag\\": "src/"
+            echo ::emojiFlag('ukcwsxap'); "src/"
         }
     }
 }
